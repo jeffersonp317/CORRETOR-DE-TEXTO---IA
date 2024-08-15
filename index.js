@@ -12,7 +12,7 @@ async function getResponse() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Authorization': `Bearer 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` // Substitua pela sua chave de API
+        'Authorization': `Bearer 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` // Substitua pela sua chave de API
       },
       body: JSON.stringify({
         model: 'gpt-3.5-turbo', // Use o modelo gpt-3.5-turbo
