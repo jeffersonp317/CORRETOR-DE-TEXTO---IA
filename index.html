@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Corretor de texto - Service IT</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./index.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="header"></div>
+  </header>
+
+  <div class="main-title">
+    <h1>Corretor de texto</h1>
+  </div>
+
+  <div class="input-question">
+    <input id="input-question" type="text"
+      value="Corrija a ortografia e concordância na língua portuguesa do Brasil do texto digitado">
+  </div>
+
+  <div class="box-text">
+    <h2>Insira aqui o texto a ser redigido:</h2>
+  </div>
+
+  <div class="input-text">
+
+    <textarea type="text" id="userInput" id="text-input " class="text-area-input" rows="" cols=""
+      placeholder="Insira aqui o seu texto" value=""></textarea>
+    <button onclick="getResponse()" id="button">Redigir texto</button>
+  </div>
+
+  <div class="box-text">
+    <h2>Texto corrigido:</h2>
+  </div>
+
+  <div class="text-area">
+    <textarea class="text-area-output" rows="" cols="" value="" id="response">
+
+    </textarea>
+  </div>
+
+
+
+  <script src="./index.js"></script>
+
+
+</body>
+
+
+</html>
